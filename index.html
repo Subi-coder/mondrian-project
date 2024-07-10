@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"> 
+    <style>
+      h1{
+        display:flex;
+        font-family: "Oswald", sans-serif;
+        font-weight:600;
+        justify-content: center;
+        height:10vh;
+        z-index:1;
+      }
+
+       body{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        height:100vh;
+        margin:0;
+        padding:0;
+       }
+       .container{
+        height:1010px;
+        width:790px;
+        display:grid;
+        gap:10px;
+        background-color: #000;
+        grid-template-columns:100px 140px 230px 110px 110px 50px;
+        grid-template-rows:250px 200px 210px 80px 100px  130px;
+        padding:5px;
+        border-radius:10px;
+        overflow:hidden;
+       }
+
+
+       .item{
+        background-color:whitesmoke;
+        
+       }
+       .white1{
+        background-color:#EEF7FF;
+        grid-column:span 2;
+       }
+       .white2{
+        background-color:#EEF7FF;
+       }
+       .yellow1{
+        background-color:yellow;
+        grid-column:span 2;
+       }
+       .white3{
+        background-color: #EEF7FF;
+        grid-area:1 / 6 / 2 /7;
+       }
+       .white4{
+        background-color:#EEF7FF;
+        grid-area:2 / 1 / 3 / 2;
+       }
+       .red1{
+        background-color:#FC4100;
+        grid-row:span 2;
+        grid-column: span 2;
+        grid-area:2/2/4/4;
+       }
+       .yellow2{
+        background-color:yellow;
+        grid-column:span 2;
+        grid-area: 2 /4 / 3 / 6;
+       }
+       .white5{
+        background-color: #EEF7FF;
+        grid-row :span 3;
+        grid-area: 2 / 6 /5/7;
+       }
+       .white6{
+        background-color: #EEF7FF;
+        grid-area:3/1/5/2;
+        grid-row:span 2;
+       }
+       .black1{
+        background-color:black;
+        grid-row:span 2;
+        grid-area:4/2/6/3;
+       }
+       .white7{
+        background-color: #EEF7FF;
+        grid-area:4/3/5/4;
+       }
+       .white8{
+        background-color:#EEF7FF;
+        grid-area:3/4/4/5;
+       }
+       .white9{
+        background-color: #EEF7FF;
+        grid-area:3/5/4/6;
+       }
+       .white10{
+        background-color: #EEF7FF;
+        grid-row:span 2;
+        grid-area:4/4/5/6;
+       }
+       .yellow3{
+        background-color: yellow;
+        grid-row:span 2;
+        grid-area:5/1/7/2;
+       }
+       .white11{
+        background-color: #EEF7FF;
+        grid-area:6/2/7/3;
+       }
+       .white12{
+        background-color:#EEF7FF;
+        grid-area:5/3/6/4;
+       }
+       .blue{
+        background-color:#4A249D;
+        grid-column:span 2;
+        grid-row:span 2;
+        grid-area:5/4/7/6;
+       }
+       .red2{
+        background-color: #FC4100;
+        grid-row:span 2;
+        grid-area:5/6/7/7;
+       }
+       .black2{
+        background-color:black;
+        grid-area:6/3/7/4;
+       }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <h1>An Art by Piet Mondrain & Css art by Subi-Coder!</h1>
+    <div class="container">
+        <div class="item white1"></div>
+        <div class="item white2"></div>
+        <div class="item yellow1"></div>
+        <div class="item white3"></div>
+        <div class="item white4"></div>
+        <div class="item red1"></div>
+        <div class="item yellow2"></div>
+        <div class="item white5"></div>
+        <div class="item white6"></div>
+        <div class="item black1"></div>
+        <div class="item white7"></div>
+        <div class="item white8"></div>
+        <div class="item white9"></div>
+        <div class="item white10"></div>
+        <div class="item yellow3"></div>
+        <div class="item white11"></div>
+        <div class="item white12"></div>
+        <div class="item black2"></div>
+        <div class="item blue"></div>
+        <div class="item red2"></div>
+
+
+
+
+    </div>
+</body>
+</html>
